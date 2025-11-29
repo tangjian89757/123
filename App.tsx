@@ -12,7 +12,7 @@ import {
   IconsGridSlide,
   TableSlide,
   ConclusionSlide
-} from './components/SlideComponents';
+} from './SlideComponents';
 
 const App: React.FC = () => {
   const [currentSlideIdx, setCurrentSlideIdx] = useState(0);
